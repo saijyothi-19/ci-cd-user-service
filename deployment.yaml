@@ -13,7 +13,8 @@ spec:
         app: user-service
     spec:
       containers:
-      - name: user-service
-        image: amma05/user-service
+  - name: user-service
+    image: amma05/user-service:latest
+    imagePullPolicy: Always
         ports:
         - containerPort: 3000
