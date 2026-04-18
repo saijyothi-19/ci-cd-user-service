@@ -3,7 +3,7 @@ const app = express();
 // trigger pipeline
 // trigger again
 app.get("/", (req, res) => {
-  res.send("User Service Running");
+  res.send("Version 2");
 });
 
 app.listen(3000, () => {
